@@ -1,0 +1,11 @@
+/* Keep this file lightweight: use system fonts by default. */
+
+:root {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+

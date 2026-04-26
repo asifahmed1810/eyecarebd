@@ -1,0 +1,13 @@
+
+  import { createRoot } from "react-dom/client";
+ 
+  import "./styles/index.css";
+import App from "./app/App";
+import { AuthProvider } from "./app/auth/AuthContext";
+
+  createRoot(document.getElementById("root")!).render(
+    <AuthProvider>
+      <App />
+    </AuthProvider>,
+  );
+  
